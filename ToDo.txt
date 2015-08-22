@@ -15,3 +15,6 @@ Add more languages.
         print<language here>CodeBlock($code)
     4) Have function call main function
         printCodeBlock($code, $REGEX_<language here>_keywords, $REGEX_<language here>_commands);
+
+Highlight single-quote strings
+    You'll have to modify the main function to add this. Probably just slightly modify the current REGEX for strings.
