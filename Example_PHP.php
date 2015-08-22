@@ -4,13 +4,12 @@
   <link rel="stylesheet" href="Style.css">
   <meta charset="UTF-8">
   <title>Testing</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 
 <main>
 <?php
-require("WebSyntaxHighligher.php");
+require("WebSyntaxHighlighter.php");
 
 $code = <<<code
 /*
