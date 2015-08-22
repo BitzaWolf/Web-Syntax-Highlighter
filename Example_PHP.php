@@ -12,7 +12,7 @@
 <?php
 require("WebSyntaxHighligher.php");
 
-$HTML = <<<HTML
+$code = <<<code
 /*
 * source is the source data already inflated (decompressed)
 * startingWidth is the horizontal pixel number (1-based indexing) the pass starts at. Pass 1 = 1, Pass 2 = 5, Pass 3 = 1, Pass 4 = 3
@@ -44,8 +44,8 @@ byte[] undoInterlaceStepFilter(PNGImage image, byteArrayInputStream source, int 
     String text = "This string int" + 15 + " is made up of " + byte + " 3 parts!";
     return output;
 }
-HTML;
-printJavaCodeBlock($HTML);
+code;
+printJavaCodeBlock($code);
 ?>
 
 </main>
