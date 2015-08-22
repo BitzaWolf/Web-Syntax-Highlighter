@@ -1,0 +1,17 @@
+/***************************************
+**    Suggestions for improvements    **
+***************************************/
+
+Add Pre-processor highlighting.
+    This needs to be ignored for code without pre-prcoessors like Java.
+
+Add more languages.
+    This is just a simple thing:
+    1) add two new global variables.
+        $REGEX_<language here>_keywords
+        $REGEX_<language here>_commands
+    2) Store the list of the keywords and commands in these variables.
+    3) Create a new function
+        print<language here>CodeBlock($code)
+    4) Have function call main function
+        printCodeBlock($code, $REGEX_<language here>_keywords, $REGEX_<language here>_commands);
