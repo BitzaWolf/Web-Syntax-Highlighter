@@ -30,7 +30,7 @@ byte[] undoInterlaceStepFilter(PNGImage image, byteArrayInputStream source, int 
     byte[] output = new byte[image.getBytesPerPixel() * lengthSL * numSLs];
     byte[] SLP = new byte[lengthSL]; // Scanline Previous
     byte[] SLC = new byte[lengthSL]; // Scanline Current
-    for (int i = 0; i < numSLs; ++i)
+    for (int i = 0; i &lt; numSLs; ++i)
     {
         byte filterType = (byte) source.read();
         source.read(SLC, (i * lengthSL), lengthSL); // read a full Scan-line's worth into SLC
@@ -45,14 +45,6 @@ byte[] undoInterlaceStepFilter(PNGImage image, byteArrayInputStream source, int 
     return output;
 }
 HTML;
-
-$HTML2 = <<<HTML
-int i = 5 / 3;
-// Comment
-class SuperCoolClass = new class OfAwesome; // this is in a comment class int.
-HTML;
-
-echo "<pre class=\"code-block\">" . $HTML . "</pre>";
 printJavaCodeBlock($HTML);
 ?>
 
