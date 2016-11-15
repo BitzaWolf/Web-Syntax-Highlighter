@@ -1,7 +1,7 @@
 Web Syntax Highlighter
 ======================
 
-Given a block of code, these PHP functions will wrap <style> tags around coding
+Given a block of code, these PHP functions will wrap `<style>` tags around coding
 syntax (keywords, digits, operators, etc).
 
 This allows a web devloper to use CSS to style the syntax, enabling elegant
