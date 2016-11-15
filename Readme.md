@@ -11,7 +11,7 @@ CSS Classes
 -----------
 
 These are the css classes you will need to use to style the syntax.
-
+<pre>
 .code-block
     This is the encompassing <pre> block that contains all of the code
 
@@ -29,3 +29,4 @@ These are the css classes you will need to use to style the syntax.
 
 .code-block-digit
     Numbers
+</pre>
