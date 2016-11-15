@@ -13,7 +13,7 @@ CSS Classes
 These are the css classes you will need to use to style the syntax.
 <pre>
 .code-block
-    This is the encompassing <pre> block that contains all of the code
+    This is the encompassing &lt;pre&gt; block that contains all of the code
 
 .code-block-comment
     For both single-line and multi-line comments
